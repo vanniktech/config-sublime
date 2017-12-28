@@ -1,0 +1,24 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Niklas.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".hg",
+		"CVS",
+		"build/"
+	],
+	"font_size": 12,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"scroll_past_end": true,
+	"show_encoding": true,
+	"tab_size": 2,
+	"theme": "Centurion.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

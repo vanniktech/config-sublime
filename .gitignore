@@ -1,0 +1,23 @@
+/Local/
+/Cache/
+/Index/
+/Backup/
+
+/Installed Packages/PyV8/*
+
+Packages/**
+!Packages/*.tmTheme
+!Packages/User
+!Packages/User/**
+
+/Packages/User/Package Control.cache/
+/Packages/User/Package Control.last-run
+/Packages/User/Package Control.system-ca-bundle
+/Packages/User/Package Control.merged-ca-bundle
+/Packages/User/Package Control.user-ca-bundle
+
+0_package_control_loader.sublime-package
+
+*.crt
+
+.DS_Store
