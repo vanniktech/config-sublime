@@ -85,5 +85,4 @@
 		}
 	},
 	{ "keys": ["ctrl+shift+g"], "command": "german" },
-	{ "keys": ["ctrl+shift+l+i"], "command": "increment_selection" }
 ]
