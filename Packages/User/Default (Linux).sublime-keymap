@@ -99,6 +99,10 @@
 		"command": "german"
 	},
 	{
+		"keys": ["ctrl+shift+b"],
+		"command": "markdown_preview_github"
+	},
+	{
 		"keys": ["alt+f3"],
 		"command": "find_all_under"
 	},
