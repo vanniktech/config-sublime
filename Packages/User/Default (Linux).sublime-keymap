@@ -85,4 +85,5 @@
 		}
 	},
 	{ "keys": ["ctrl+shift+g"], "command": "german" },
+	{ "keys": ["alt+f3"], "command": "find_all_under" },
 ]
