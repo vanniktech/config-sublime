@@ -103,6 +103,14 @@
 		"command": "find_all_under"
 	},
 	{
+		"keys": ["super+shift+m"],
+		"command": "markdown_preview",
+		"args":
+		{
+			"target": "browser", "parser": "markdown"
+		}
+	},
+	{
 		"keys": ["alt+super+8"],
 		"command": "set_layout",
 		"args":

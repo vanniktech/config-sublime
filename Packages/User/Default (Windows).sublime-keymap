@@ -92,4 +92,12 @@
 		"keys": ["alt+f3"],
 		"command": "find_all_under"
 	},
+	{
+		"keys": ["ctrl+shift+m"],
+		"command": "markdown_preview",
+		"args":
+		{
+			"target": "browser", "parser": "markdown"
+		}
+	},
 ]
