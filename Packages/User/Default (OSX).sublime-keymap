@@ -55,6 +55,26 @@
 		}
 	},
 	{
+		"keys": ["alt+super+8"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.5, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+		}
+	},
+	{
+		"keys": ["alt+super+9"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.33, 0.66, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]]
+		}
+	},
+	{
 		"keys": ["alt+super+0"],
 		"command": "set_layout",
 		"args":
@@ -62,26 +82,6 @@
 			"cols": [0.0, 1.0],
 			"rows": [0.0, 0.25, 0.50, 0.75, 1.0],
 			"cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3], [0, 3, 1, 4]]
-		}
-	},
-	{
-		"keys": ["alt+super+§"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 0.33, 1.0],
-			"rows": [0.0, 1.0],
-			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-		}
-	},
-	{
-		"keys": ["alt+super+§"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 0.33, 1.0],
-			"rows": [0.0, 1.0],
-			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
 		}
 	},
 	{
@@ -108,26 +108,6 @@
 		"args":
 		{
 			"target": "browser", "parser": "markdown"
-		}
-	},
-	{
-		"keys": ["alt+super+8"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 1.0],
-			"rows": [0.0, 0.5, 1.0],
-			"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
-		}
-	},
-	{
-		"keys": ["alt+super+9"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 1.0],
-			"rows": [0.0, 0.33, 0.66, 1.0],
-			"cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]]
 		}
 	},
 ]
