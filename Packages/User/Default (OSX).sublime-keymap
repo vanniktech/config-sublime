@@ -94,8 +94,14 @@
 			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
 		}
 	},
-	{ "keys": ["super+shift+g"], "command": "german" },
-	{ "keys": ["alt+f3"], "command": "find_all_under" },
+	{
+		"keys": ["super+shift+g"],
+		"command": "german"
+	},
+	{
+		"keys": ["alt+f3"],
+		"command": "find_all_under"
+	},
 	{
 		"keys": ["alt+super+8"],
 		"command": "set_layout",
