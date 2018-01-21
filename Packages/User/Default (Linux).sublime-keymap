@@ -25,7 +25,7 @@
 	{ "keys": ["alt+down"], "command": "swap_line_down" },
 	{ "keys": ["ctrl+k", "ctrl+s"], "command": "convert_to_snake"},
 	{ "keys": ["ctrl+k", "ctrl+c"], "command": "convert_to_camel"},
-	{ "keys": ["super+o", "super+t"], "command": "open_terminal" },
+	{ "keys": ["ctrl+o", "ctrl+t"], "command": "open_terminal" },
 	{
 		"keys": ["alt+shift+6"],
 		"command": "set_layout",

@@ -23,9 +23,9 @@
 	{ "keys": ["f12"], "command": "reindent", "args": { "single_line": false } },
 	{ "keys": ["alt+up"], "command": "swap_line_up" },
 	{ "keys": ["alt+down"], "command": "swap_line_down" },
-	{ "keys": ["super+k", "super+s"], "command": "convert_to_snake"},
-	{ "keys": ["super+k", "super+c"], "command": "convert_to_camel"},
-	{ "keys": ["super+o", "super+t"], "command": "open_terminal" },
+	{ "keys": ["ctrl+k", "ctrl+s"], "command": "convert_to_snake"},
+	{ "keys": ["ctrl+k", "ctrl+c"], "command": "convert_to_camel"},
+	{ "keys": ["ctrl+o", "ctrl+t"], "command": "open_terminal" },
 	{
 		"keys": ["alt+shift+6"],
 		"command": "set_layout",
