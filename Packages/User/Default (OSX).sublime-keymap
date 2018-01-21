@@ -108,7 +108,7 @@
 		"args":
 		{
 			"target": "browser",
-			"parser": "markdown",
+			"parser": "github",
 		}
 	},
 ]
