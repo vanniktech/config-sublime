@@ -2,6 +2,9 @@
 	"extensions":
 	[
 		".zshrc",
-		".zprofile"
+		".zprofile",
+    ".mac",
+		".unix",
+		".ubuntu"
 	]
 }
