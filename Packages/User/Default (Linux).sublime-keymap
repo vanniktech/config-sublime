@@ -25,7 +25,71 @@
 	{ "keys": ["ctrl+k", "ctrl+c"], "command": "convert_to_camel"},
 	{ "keys": ["ctrl+o", "ctrl+t"], "command": "open_terminal" },
 	{
-		"keys": ["alt+shift+6"],
+		"keys": ["alt+ctrl+0"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.25, 0.50, 0.75, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3], [0, 3, 1, 4]]
+		}
+	},
+	{
+		"keys": ["alt+ctrl+1"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	},
+	{
+		"keys": ["alt+ctrl+2"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["alt+ctrl+3"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.33, 0.66, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+		}
+	},
+	{
+		"keys": ["alt+ctrl+4"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.25, 0.5, 0.75, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1], [3, 0, 4, 1]]
+		}
+	},
+	{
+		"keys": ["alt+ctrl+5"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 0.5, 1.0],
+			"cells":
+			[
+				[0, 0, 1, 1], [1, 0, 2, 1],
+				[0, 1, 1, 2], [1, 1, 2, 2]
+			]
+		}
+	},
+	{
+		"keys": ["alt+ctrl+6"],
 		"command": "set_layout",
 		"args":
 		{
@@ -39,7 +103,7 @@
 		}
 	},
 	{
-		"keys": ["alt+shift+7"],
+		"keys": ["alt+ctrl+7"],
 		"command": "set_layout",
 		"args":
 		{
@@ -53,7 +117,7 @@
 		}
 	},
 	{
-		"keys": ["alt+shift+8"],
+		"keys": ["alt+ctrl+8"],
 		"command": "set_layout",
 		"args":
 		{
@@ -63,7 +127,7 @@
 		}
 	},
 	{
-		"keys": ["alt+shift+9"],
+		"keys": ["alt+ctrl+9"],
 		"command": "set_layout",
 		"args":
 		{
@@ -73,17 +137,7 @@
 		}
 	},
 	{
-		"keys": ["alt+shift+0"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 1.0],
-			"rows": [0.0, 0.25, 0.50, 0.75, 1.0],
-			"cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3], [0, 3, 1, 4]]
-		}
-	},
-	{
-		"keys": ["alt+shift+-"],
+		"keys": ["alt+ctrl+-"],
 		"command": "set_layout",
 		"args":
 		{
