@@ -115,4 +115,12 @@
 			"parser": "github",
 		}
 	},
+	{
+		"keys": ["super+i", "super+m", "super+s"],
+		"command": "insert",
+		"args":
+		{
+			"characters": "maven { url \"https://oss.sonatype.org/content/repositories/snapshots\" }"
+		}
+	},
 ]
