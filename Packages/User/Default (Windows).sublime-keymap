@@ -127,4 +127,12 @@
 			"characters": "maven { url \"https://oss.sonatype.org/content/repositories/snapshots\" }"
 		}
 	},
+	{
+		"keys": ["ctrl+i", "ctrl+u", "ctrl+c"],
+		"command": "insert",
+		"args":
+		{
+			"characters": "✓"
+		}
+	},
 ]
