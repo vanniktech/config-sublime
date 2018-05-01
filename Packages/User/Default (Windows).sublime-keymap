@@ -135,4 +135,12 @@
 			"characters": "✓"
 		}
 	},
+	{
+		"keys": ["ctrl+i", "ctrl+u", "ctrl+e"],
+		"command": "insert",
+		"args":
+		{
+			"characters": "€"
+		}
+	},
 ]

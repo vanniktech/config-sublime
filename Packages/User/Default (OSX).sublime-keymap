@@ -135,4 +135,12 @@
 			"characters": "✓"
 		}
 	},
+	{
+		"keys": ["super+i", "super+u", "super+e"],
+		"command": "insert",
+		"args":
+		{
+			"characters": "€"
+		}
+	},
 ]
