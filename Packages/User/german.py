@@ -9,6 +9,12 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "ue", "ü")
 		self.search_replace(edit, "Ue", "Ü")
 
+		# Correct some of the ones we didn't exclude.
+		self.search_replace(edit, "Neü", "Neue")
+		self.search_replace(edit, "neü", "neue")
+		self.search_replace(edit, "eventüll", "eventuell")
+		self.search_replace(edit, "Eventüll", "Eventuell")
+
 	def search_replace(self, edit, search, replace):
 		regions = self.view.find_all(search)
 
