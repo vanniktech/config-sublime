@@ -15,6 +15,12 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "eventüll", "eventuell")
 		self.search_replace(edit, "Eventüll", "Eventuell")
 
+		# ß cases.
+		self.search_replace(edit, "weiss", "weiß")
+		self.search_replace(edit, "Weiss", "Weiß")
+		self.search_replace(edit, "grüsse", "grüße")
+		self.search_replace(edit, "Grüsse", "Grüße")
+
 	def search_replace(self, edit, search, replace):
 		regions = self.view.find_all(search)
 
