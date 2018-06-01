@@ -16,6 +16,8 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "Eventüll", "Eventuell")
 		self.search_replace(edit, "söben", "soeben")
 		self.search_replace(edit, "Söben", "Soeben")
+		self.search_replace(edit, "aktüllen", "aktuellen")
+		self.search_replace(edit, "Aktüllen", "Aktuellen")
 
 		# ß cases.
 		self.search_replace(edit, "weiss", "weiß")
