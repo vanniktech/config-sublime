@@ -24,6 +24,8 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "Weiss", "Weiß")
 		self.search_replace(edit, "grüsse", "grüße")
 		self.search_replace(edit, "Grüsse", "Grüße")
+		self.search_replace(edit, "grösse", "größe")
+		self.search_replace(edit, "Grösse", "Größe")
 
 	def search_replace(self, edit, search, replace):
 		regions = self.view.find_all(search)
