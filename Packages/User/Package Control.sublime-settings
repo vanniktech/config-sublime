@@ -11,16 +11,12 @@
 		"GitGutter",
 		"Gradle_Language",
 		"Kotlin",
-		"MarkdownLivePreview",
 		"MarkdownPreview",
 		"Package Control",
+		"Predawn",
 		"Pretty JSON",
-		"QML",
 		"Shader Syntax (GLSL HLSL Cg)",
-		"SideBarEnhancements",
 		"Swift",
-		"SyntaxManager",
-		"TabsExtra",
-		"Theme - Centurion"
+		"TabsExtra"
 	]
 }
