@@ -18,6 +18,8 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "Söben", "Soeben")
 		self.search_replace(edit, "aktüllen", "aktuellen")
 		self.search_replace(edit, "Aktüllen", "Aktuellen")
+		self.search_replace(edit, "steür", "steuer")
+		self.search_replace(edit, "Steür", "Steuer")
 
 		# ß cases.
 		self.search_replace(edit, "weiss", "weiß")
