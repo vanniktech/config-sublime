@@ -20,5 +20,6 @@
 	"tab_size": 2,
 	"theme": "predawn-DEV.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"file_exclude_patterns": ["._*", ".DS_Store", "*.sublime-workspace"]
 }
