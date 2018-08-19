@@ -20,6 +20,14 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "Aktüllen", "Aktuellen")
 		self.search_replace(edit, "steür", "steuer")
 		self.search_replace(edit, "Steür", "Steuer")
+		self.search_replace(edit, "Blütooth", "Bluetooth")
+		self.search_replace(edit, "blütooth", "bluetooth")
+		self.search_replace(edit, "daürt", "dauert")
+		self.search_replace(edit, "Daürt", "Dauert")
+		self.search_replace(edit, "baün", "bauen")
+		self.search_replace(edit, "Baün", "Bauen")
+		self.search_replace(edit, "schaün", "schauen")
+		self.search_replace(edit, "Schaün", "Schauen")
 
 		# ß cases.
 		self.search_replace(edit, "weiss", "weiß")
