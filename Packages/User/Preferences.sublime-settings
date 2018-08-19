@@ -1,6 +1,12 @@
 {
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Niklas.tmTheme",
+	"file_exclude_patterns":
+	[
+		"._*",
+		".DS_Store",
+		"*.sublime-workspace"
+	],
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -20,6 +26,5 @@
 	"tab_size": 2,
 	"theme": "predawn-DEV.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"file_exclude_patterns": ["._*", ".DS_Store", "*.sublime-workspace"]
+	"trim_trailing_white_space_on_save": true
 }
