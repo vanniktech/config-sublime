@@ -32,6 +32,8 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "Individüll", "Individuell")
 		self.search_replace(edit, "vertraün", "vertrauen")
 		self.search_replace(edit, "Vertraün", "Vertrauen")
+		self.search_replace(edit, "Qüsadilla", "Quesadilla")
+		self.search_replace(edit, "qüsadilla", "quesadilla")
 
 		# ß cases.
 		self.search_replace(edit, "weiss", "weiß")
