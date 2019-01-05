@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"sq"
+		"sq",
+		"sqm"
 	]
 }
