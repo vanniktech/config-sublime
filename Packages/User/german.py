@@ -38,6 +38,10 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "qüsadilla", "quesadilla")
 
 		# ß cases.
+		self.search_replace(edit, "gross", "groß")
+		self.search_replace(edit, "Gross", "Groß")
+		self.search_replace(edit, "strasse", "straße")
+		self.search_replace(edit, "Strasse", "Straße")
 		self.search_replace(edit, "weiss", "weiß")
 		self.search_replace(edit, "Weiss", "Weiß")
 		self.search_replace(edit, "grüsse", "grüße")
