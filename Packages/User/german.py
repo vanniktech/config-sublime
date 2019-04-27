@@ -38,6 +38,20 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "qüsadilla", "quesadilla")
 		self.search_replace(edit, "Raushaün", "Raushauen")
 		self.search_replace(edit, "raushaün", "raushauen")
+		self.search_replace(edit, "virtüll", "virtuell")
+		self.search_replace(edit, "Virtüll", "Virtuell")
+		self.search_replace(edit, "qülle", "quelle")
+		self.search_replace(edit, "Qülle", "Quelle")
+		self.search_replace(edit, "Dü ", "Due ")
+		self.search_replace(edit, "dü ", "due ")
+		self.search_replace(edit, "Daür", "Dauer")
+		self.search_replace(edit, "daür", "dauer")
+		self.search_replace(edit, "Sexüll", "Sexuell")
+		self.search_replace(edit, "sexüll", "sexuell")
+		self.search_replace(edit, "Kaü", "Kaue")
+		self.search_replace(edit, "kaü", "kaue")
+		self.search_replace(edit, "Qüstion", "Question")
+		self.search_replace(edit, "qüstion", "question")
 
 		# ß cases.
 		self.search_replace(edit, "gross", "groß")
@@ -48,8 +62,9 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "Weiss", "Weiß")
 		self.search_replace(edit, "grüsse", "grüße")
 		self.search_replace(edit, "Grüsse", "Grüße")
-		self.search_replace(edit, "grösse", "größe")
-		self.search_replace(edit, "Grösse", "Größe")
+		self.search_replace(edit, "gröss", "größ")
+		self.search_replace(edit, "Gröss", "Größ")
+		self.search_replace(edit, "Schoss", "Schoß")
 
 	def search_replace(self, edit, search, replace):
 		regions = self.view.find_all(search)
