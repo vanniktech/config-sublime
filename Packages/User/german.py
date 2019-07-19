@@ -58,6 +58,8 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "Fraün", "Frauen")
 		self.search_replace(edit, "Blaün", "Blauen")
 		self.search_replace(edit, "blaün", "blauen")
+		self.search_replace(edit, "qüen", "queen")
+		self.search_replace(edit, "Qüen", "Queen")
 
 		# ß cases.
 		self.search_replace(edit, "gross", "groß")
