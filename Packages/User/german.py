@@ -60,6 +60,8 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "blaün", "blauen")
 		self.search_replace(edit, "qüen", "queen")
 		self.search_replace(edit, "Qüen", "Queen")
+		self.search_replace(edit, "reqüst", "request")
+		self.search_replace(edit, "Reqüst", "Request")
 
 		# ß cases.
 		self.search_replace(edit, "gross", "groß")
@@ -73,6 +75,8 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "gröss", "größ")
 		self.search_replace(edit, "Gröss", "Größ")
 		self.search_replace(edit, "Schoss", "Schoß")
+		self.search_replace(edit, "regelmässige", "regelmäßige")
+		self.search_replace(edit, "Regelmässige", "Regelmäßige")
 
 	def search_replace(self, edit, search, replace):
 		regions = self.view.find_all(search)
