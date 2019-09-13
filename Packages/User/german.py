@@ -77,6 +77,8 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "Schoss", "Schoß")
 		self.search_replace(edit, "regelmässige", "regelmäßige")
 		self.search_replace(edit, "Regelmässige", "Regelmäßige")
+		self.search_replace(edit, "Schliessen", "Schließen")
+		self.search_replace(edit, "schliessen", "schließen")
 
 	def search_replace(self, edit, search, replace):
 		regions = self.view.find_all(search)
