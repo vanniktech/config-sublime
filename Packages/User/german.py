@@ -62,6 +62,14 @@ class German(sublime_plugin.TextCommand):
 		self.search_replace(edit, "Qüen", "Queen")
 		self.search_replace(edit, "reqüst", "request")
 		self.search_replace(edit, "Reqüst", "Request")
+		self.search_replace(edit, "Vertraü", "Vertraue")
+		self.search_replace(edit, "vertraü", "vertraue")
+		self.search_replace(edit, "genaür", "genauer")
+		self.search_replace(edit, "Genaür", "Genauer")
+		self.search_replace(edit, "Baü", "Baue")
+		self.search_replace(edit, "baü", "baue")
+		self.search_replace(edit, "Inflünce", "Influence")
+		self.search_replace(edit, "inflünce", "influence")
 
 		# ß cases.
 		self.search_replace(edit, "gross", "groß")
