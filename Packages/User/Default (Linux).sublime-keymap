@@ -5,7 +5,7 @@
 	{ "keys": ["ctrl+l"], "command": "run_macro_file", "args": { "file": "res://Packages/Default/Delete Line.sublime-macro"} },
 	{ "keys": ["ctrl+shift+k"], "command": "expand_selection", "args": { "to": "line"} },
 	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
-	{ "keys": ["ctrl+g"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+g"], "command": "find_under_expand", "args": {"case_sensitive": true} },
 	{ "keys": ["ctrl+k", "ctrl+d"], "command": "clear_bookmarks", "args": { "name": "mark"} },
 	{ "keys": ["ctrl+k", "ctrl+g"], "command": "find_under_expand_skip" },
 	{ "keys": ["ctrl+shift+d"], "command": "show_overlay", "args": { "overlay": "goto", "text": ":"} },
