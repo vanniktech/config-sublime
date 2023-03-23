@@ -195,7 +195,7 @@
 		"command": "insert",
 		"args":
 		{
-			"characters": "maven { url \"https://oss.sonatype.org/content/repositories/snapshots\" }"
+			"characters": "maven(\"https://oss.sonatype.org/content/repositories/snapshots\")"
 		}
 	},
 	{
