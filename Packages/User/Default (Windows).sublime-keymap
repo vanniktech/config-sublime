@@ -1,7 +1,7 @@
 [
 	{ "keys": ["ctrl+alt+s"], "command": "save_all" },
-	{ "keys": ["ctrl+alt+w"], "command": "close_all" },
-	{ "keys": ["ctrl+shift+w"], "command": "close_others" },
+	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
+	{ "keys": ["ctrl+alt+w"], "command": "close_others" },
 	{ "keys": ["ctrl+l"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 	{ "keys": ["ctrl+shift+k"], "command": "expand_selection", "args": {"to": "line"} },
 	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
